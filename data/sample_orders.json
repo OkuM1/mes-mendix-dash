@@ -1,0 +1,62 @@
+[
+  {
+    "order_id": "WO-2025-001",
+    "product_name": "Train Door Assembly",
+    "quantity_planned": 50,
+    "quantity_produced": 50,
+    "status": "completed",
+    "start_time": "2025-06-01T08:00:00",
+    "end_time": "2025-06-03T17:00:00",
+    "priority": "high"
+  },
+  {
+    "order_id": "WO-2025-002",
+    "product_name": "Brake Control Unit",
+    "quantity_planned": 25,
+    "quantity_produced": 18,
+    "status": "in_progress",
+    "start_time": "2025-06-05T09:00:00",
+    "end_time": null,
+    "priority": "urgent"
+  },
+  {
+    "order_id": "WO-2025-003",
+    "product_name": "Sensor Module",
+    "quantity_planned": 100,
+    "quantity_produced": 0,
+    "status": "pending",
+    "start_time": null,
+    "end_time": null,
+    "priority": "medium"
+  },
+  {
+    "order_id": "WO-2025-004",
+    "product_name": "Communication Gateway",
+    "quantity_planned": 15,
+    "quantity_produced": 15,
+    "status": "completed",
+    "start_time": "2025-05-28T10:00:00",
+    "end_time": "2025-06-02T16:30:00",
+    "priority": "high"
+  },
+  {
+    "order_id": "WO-2025-005",
+    "product_name": "Power Supply Unit",
+    "quantity_planned": 30,
+    "quantity_produced": 8,
+    "status": "on_hold",
+    "start_time": "2025-06-06T08:00:00",
+    "end_time": null,
+    "priority": "low"
+  },
+  {
+    "order_id": "WO-2025-006",
+    "product_name": "Safety Controller",
+    "quantity_planned": 20,
+    "quantity_produced": 12,
+    "status": "in_progress",
+    "start_time": "2025-06-04T07:30:00",
+    "end_time": null,
+    "priority": "high"
+  }
+]

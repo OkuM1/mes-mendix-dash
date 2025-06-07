@@ -1,0 +1,146 @@
+# ==============================================
+# Smart MES Dashboard - Production .gitignore
+# Only essential code files should be tracked
+# ==============================================
+
+# Python Runtime & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment (NEVER commit)
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# IDE & Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.vim/
+.emacs.d/
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Logs & Debug Files
+*.log
+logs/
+debug.log
+error.log
+
+# Database Files (keep only samples)
+*.db
+*.sqlite3
+*.mdb
+
+# Sensitive Configuration
+.env
+.env.local
+.env.production
+.env.development
+config.ini
+secrets.json
+credentials.json
+
+# Temporary & Generated Files
+*.tmp
+*.temp
+temp/
+temporary/
+cache/
+
+# Generated Data Files (exclude timestamped, keep samples)
+data/*_20*.json
+data/*_20*.csv
+data/generated_*
+data/export_*
+data/backup_*
+data/temp_*
+!data/sample_*
+!data/README.md
+
+# Test Coverage & Reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+.nyc_output/
+coverage/
+
+# Testing Cache
+.pytest_cache/
+.tox/
+.nox/
+
+# Type Checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pytype/
+
+# Documentation Generation
+docs/_build/
+docs/build/
+site/
+
+# Backup Files
+*.bak
+*.backup
+*~
+.*.swp
+.*.swo
+
+# Package Manager
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Jupyter Notebooks (keep clean versions only)
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# ==============================================
+# PROJECT SPECIFIC EXCLUSIONS
+# ==============================================
+
+# Exclude all job application related docs (keep in local only)
+JOB_APPLICATION_GUIDE.md
+DEMO_QUICK_REFERENCE.md
+
+# Exclude project management files (internal use only)
+PROJECT_COMPLETE_SUMMARY.md
+
+# Architecture documentation (keep for reference)
+# architecture.html - INCLUDED for demo purposes
