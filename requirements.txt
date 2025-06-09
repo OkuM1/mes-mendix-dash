@@ -2,3 +2,7 @@ fastapi
 uvicorn
 pandas
 requests
+pytest
+pytest-cov
+httpx<0.24
+schedule
